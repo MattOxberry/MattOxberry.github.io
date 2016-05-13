@@ -9,11 +9,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap things -->
-  <script src="js/jquery-2.2.1.min.js"></script>
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="css/bootstrap.icon-large.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://i.icomoon.io/public/temp/a2846a2a37/UntitledProject/style.css" />
   <link href="css/style.css" rel="stylesheet" />
+  <script src="js/jquery-2.2.3.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/validator.js"></script>
 
@@ -22,22 +22,31 @@
 
 </head>
 
-<body>
-    <form id="frmAboutMe">
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collaspe" data-target="#navbar-brand-centered">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <h3><a href="index.html" style="margin-right: 15px; color: black">MPO</a></h3>
-                </div>
-            </div>
-        </nav>
-    </form>
+<body class="backdrop" style="background-image: url(img/coffee_background.jpg)">
+
+<!---------------------------------------------- Navbar ---------------------------------------------------->
+<div class="navbar navbar-default blktext" style="background-color: rgba(211,211,211,0.8); color: black">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">MPO</a>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class=""><a href="aboutme.html">About Me</a></li>
+        <li class=""><a href="#">Home</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------->
+
+
 </body>
 
 </html>
