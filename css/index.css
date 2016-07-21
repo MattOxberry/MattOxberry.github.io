@@ -7,6 +7,8 @@ body {
     width: 80%;
 }
 
-ls .blktext{
+a.blktext{
   color: black;
+  font-weight: bolder;
+
 }
