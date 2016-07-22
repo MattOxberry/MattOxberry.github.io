@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en-us">
 
 <head>
 
@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Matthew P Oxberry</title>
+  <link rel="Image icon" type="image/x-icon" href="img/StanceIcon.ico" />
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -25,18 +26,13 @@
   <!-- Flat Icon -->
   <link href="css/flaticon.css" rel="stylesheet" />
 
-  <!-- Google Material Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <!-- Custom CSS -->
+  <!-- Custom Written CSS & JS -->
   <link href="css/index.css" rel="stylesheet" />
-
-  <!-- Octicons -->
-  <link href="css/octicons.css" rel="stylesheet"/>
+  <script src="js/index.js"></script>
 
 </head>
 
-<body style="background-image: url(img/coffee_background.jpg);">
+<body>
 
 <!---------------------------------------------- Navbar ------------------------------------------------>
   <div class="navbar navbar-default" style="background-color: rgba(211,211,211,0.8)">
@@ -51,9 +47,10 @@
         <a class="navbar-brand" href="index.html" style="color: black; font-size: 2em; font-weight: bolder">MPO</a>
       </div>
       <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class=""><a href="aboutme.html" style="color: black; font-weight: bold">About Me</a></li>
-          <li class="blktext"><a href="index.html" style="color: black; font-weight: bold">Home</a></li>
+        <ul class="nav navbar-nav navbar-right" id="tabformat">
+          <li><a href="Matt_Oxberry_Resume05_2016.pdf" target="_blank">Resume <span class="fa fa-file-pdf-o"></span></a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="index.html">Home</a></li>
         </ul>
       </div>
     </div>
@@ -62,35 +59,37 @@
     <br />
     <br />
 <!--------------------------------------------- Profile picture ---------------------------------------->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-md-offset-1 col-xs-4">
-        <img src="img/MPO_Head.jpg" class="profile-pic img-rounded" alt="Profile Picture">
-      </div>
-      <div class="col-md-8 col-xs-8" style="opacity: 0.8">
-        <div class="panel panel-default">
-          <div class="panel panel-heading">
-            <h1>Welcome to my site!</h1>
-          </div>
-          <div class="panel panel-body">
-            <p>My name is Matthew Oxberry. I am an Information Science and Technology Major from Temple University. During my studies I have discovered a passion for databases. This site was created to show off some of the skills I have learned.</p>
-            <br/>
-            <a href="Matt_Oxberry_Resume05_2016.pdf">Resume</a>
+
+    <div class="col-md-3 col-md-offset-1 col-xs-4">
+      <img src="img/MPO_Head.jpg" class="profile-pic img-rounded" alt="Profile Picture">
+    </div>
+    <div class="col-md-7 col-xs-7" style="opacity: 0.8">
+      <br />
+      <br />
+      <div class="panel panel-default">
+        <div class="panel panel-heading text-center">
+          <h1><strong>Welcome to my site!</strong></h1>
+        </div>
+        <div class="panel panel-body">
+          <p>My name is Matthew Oxberry. I am an Information Science and Technology Major from Temple University.
+            During my studies I have discovered a passion for databases. This site was created to show off some
+            of the skills I have learned.</p>
+          <br/>
+          <div class="col-md-4 col-md-offset-4 col-xs-4 socicons">
+              <a class="git-rotate" href="https://github.com/MattOxberry" target="_blank"><span class="fa fa-4x fa-github"></span></a>
+              <a href="https://www.linkedin.com/in/matthew-oxberry-32900110a" target="_blank"><span class="fa fa-4x fa-linkedin-square"></span></a>
           </div>
         </div>
       </div>
     </div>
+
 <!------------------------------------------------------------------------------------------------------>
     <br />
     <br />
 <!----------------------------------------------- Footer ----------------------------------------------->
     <div class="footer navbar-fixed-bottom" style="background-color: rgba(211,211,211,0.8)">
-      <div class="container">
-        <center style="padding-top: 0.5em; padding-bottom: 0.5em">
-            <a href="https://github.com/MattOxberry" target="_blank"><span class="fa fa-3x fa-github" style="color: black"></span></a>
-            <a href="https://www.linkedin.com/in/matthew-oxberry-32900110a" target="_blank"><span class="fa fa-3x fa-linkedin" style="color: black"></span></a>
-            <a href="Matt_Oxberry_Resume05_2016.pdf" target="_blank"><span class="fa fa-3x fa-file-o" style="color: black"></span></a>
-        </center>
+      <div class="container footspace">
+        <p class="pull-left"><span class="fa fa-coffee"></span> 2016 - Site Built and Maintained by Matt Oxberry</p>
       </div>
     </div>
 <!------------------------------------------------------------------------------------------------------>
