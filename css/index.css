@@ -29,8 +29,9 @@ body {
   color: black;
   padding-right: 2em;
 }
-
-.git-rotate:hover{
-  transform: rotate(90deg);
-  transition: 10s;
+/*.git-rotate{
+  color: black;
 }
+.git-rotate:hover{
+  color: red;
+}*/
